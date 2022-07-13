@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Rest Operator Lecture">
-      <change afterPath="$PROJECT_DIR$/CodingChallengeFootball.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LogicalAssignmentOperators.js" afterDir="false" />
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Coding Challenge Lecture">
+      <change afterPath="$PROJECT_DIR$/For-OfLoop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/attach.html" afterDir="false" />
     </list>
@@ -85,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657618972073</updated>
       <workItem from="1657618973422" duration="8098000" />
-      <workItem from="1657694384558" duration="6096000" />
+      <workItem from="1657694384558" duration="7149000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -122,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657699497439</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Logical Assignment Operator Lecture">
+      <created>1657704872299</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657704872299</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Coding Challenge Lecture">
+      <created>1657704883173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657704883173</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +159,8 @@
     <MESSAGE value="Small Changes" />
     <MESSAGE value="Spread Operator Lecture" />
     <MESSAGE value="Rest Operator Lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest Operator Lecture" />
+    <MESSAGE value="Logical Assignment Operator Lecture" />
+    <MESSAGE value="Coding Challenge Lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Coding Challenge Lecture" />
   </component>
 </project>
