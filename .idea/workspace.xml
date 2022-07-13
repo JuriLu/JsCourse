@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Spread Operator Lecture">
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Rest Operator Lecture">
+      <change afterPath="$PROJECT_DIR$/CodingChallengeFootball.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogicalAssignmentOperators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpreadOperator.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpreadOperator+RestOperator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/attach.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657618972073</updated>
       <workItem from="1657618973422" duration="8098000" />
-      <workItem from="1657694384558" duration="2996000" />
+      <workItem from="1657694384558" duration="6096000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -114,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657639413100</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rest Operator Lecture">
+      <created>1657699497439</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657699497439</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +145,7 @@
     <MESSAGE value="Primitive VS Reference Type Lecture&#10;Array Destructuring Lecture&#10;Live-server auto configurations" />
     <MESSAGE value="Small Changes" />
     <MESSAGE value="Spread Operator Lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spread Operator Lecture" />
+    <MESSAGE value="Rest Operator Lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Operator Lecture" />
   </component>
 </project>
