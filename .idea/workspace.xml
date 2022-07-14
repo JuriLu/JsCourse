@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Coding Challenge Lecture">
-      <change afterPath="$PROJECT_DIR$/For-OfLoop.js" afterDir="false" />
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Object Literals ES6 Enhancement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/attach.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jlubonja/Desktop/Projects/JS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/jlubonja/Desktop/Projects/JS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JavaScript Debug.attach.html">
     <configuration name="Test" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229" restartOnDisconnect="true">
       <method v="2" />
@@ -84,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1657618972073</updated>
       <workItem from="1657618973422" duration="8098000" />
-      <workItem from="1657694384558" duration="7149000" />
+      <workItem from="1657694384558" duration="8176000" />
+      <workItem from="1657780874639" duration="1511000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -135,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657704883173</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Object Literals ES6 Enhancement">
+      <created>1657706157147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657706157147</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +167,7 @@
     <MESSAGE value="Rest Operator Lecture" />
     <MESSAGE value="Logical Assignment Operator Lecture" />
     <MESSAGE value="Coding Challenge Lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coding Challenge Lecture" />
+    <MESSAGE value="Object Literals ES6 Enhancement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object Literals ES6 Enhancement" />
   </component>
 </project>
