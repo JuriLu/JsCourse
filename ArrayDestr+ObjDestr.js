@@ -36,11 +36,11 @@ restaurant.orderDelivery({
     time:'22:30',
     address:'Via del sole,21',
     mainIndex:2,
-    starterIzndex:2
+    starterIndex:2
 })
 
 // console.log(restaurant);
-// Must WRITE the EXACT names of the VARIABLES to extract them from the object
+// Must WRITE the EXACT names of the VARIABLES to extract them from the object DESCTRUCTURE
 const {name, openingHours, categories} = restaurant
 console.log(name, openingHours, categories)
 
