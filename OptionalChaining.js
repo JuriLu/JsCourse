@@ -4,7 +4,6 @@ console.log("Test Test 1 2 3 4...Welcome")
 
 //The Object
 
-
 const openingHours = {
     thu: {
         open: 12, close: 22,
