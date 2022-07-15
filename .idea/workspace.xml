@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Object Literals ES6 Enhancement">
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/attach.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jlubonja/Desktop/Projects/JS",
+    "last_opened_file_path": "C:/Users/jlubonja/Desktop/Projects/Event/Event-app",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
     "vue.rearranger.settings.migration": "true"
@@ -84,6 +85,9 @@
       <workItem from="1657618973422" duration="8098000" />
       <workItem from="1657694384558" duration="8176000" />
       <workItem from="1657780874639" duration="1511000" />
+      <workItem from="1657788350061" duration="614000" />
+      <workItem from="1657811394166" duration="1380000" />
+      <workItem from="1657867461101" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -168,6 +172,7 @@
     <MESSAGE value="Logical Assignment Operator Lecture" />
     <MESSAGE value="Coding Challenge Lecture" />
     <MESSAGE value="Object Literals ES6 Enhancement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object Literals ES6 Enhancement" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
