@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Coding Challenge #3 lecture">
-      <change afterPath="$PROJECT_DIR$/Working With Strings #1.js" afterDir="false" />
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="String Part #1 lecture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/attach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working With Strings #1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Working With Strings #1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <workItem from="1657788350061" duration="614000" />
       <workItem from="1657811394166" duration="1380000" />
       <workItem from="1657867461101" duration="36000" />
-      <workItem from="1657877914849" duration="5770000" />
+      <workItem from="1657877914849" duration="8832000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -182,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657887536673</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="String Part #1 lecture">
+      <created>1657888826069</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657888826069</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +220,7 @@
     <MESSAGE value="Maps lecture" />
     <MESSAGE value="Map Iterator lecture" />
     <MESSAGE value="Coding Challenge #3 lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coding Challenge #3 lecture" />
+    <MESSAGE value="String Part #1 lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Part #1 lecture" />
   </component>
 </project>
