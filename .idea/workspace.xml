@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Maps lecture">
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Map Iterator lecture">
+      <change afterPath="$PROJECT_DIR$/CodingChallenge#3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/Map + MapIteration.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/attach.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       <workItem from="1657788350061" duration="614000" />
       <workItem from="1657811394166" duration="1380000" />
       <workItem from="1657867461101" duration="36000" />
-      <workItem from="1657877914849" duration="3067000" />
+      <workItem from="1657877914849" duration="4609000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657879299323</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Map Iterator lecture">
+      <created>1657881395130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657881395130</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="." />
     <MESSAGE value="sets lecture" />
     <MESSAGE value="Maps lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Maps lecture" />
+    <MESSAGE value="Map Iterator lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map Iterator lecture" />
   </component>
 </project>
