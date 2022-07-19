@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Function --&gt; Default Parameters Lecture">
-      <change afterPath="$PROJECT_DIR$/PassingArgumentsPrimitiveVsReference.js" afterDir="false" />
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Passing Arguments Primitive vs Reference type">
+      <change afterPath="$PROJECT_DIR$/HighOrderFunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/Attach.html" afterDir="false" />
     </list>
@@ -96,7 +96,7 @@
       <workItem from="1657867461101" duration="36000" />
       <workItem from="1657877914849" duration="12314000" />
       <workItem from="1658132503525" duration="7307000" />
-      <workItem from="1658212576074" duration="3756000" />
+      <workItem from="1658212576074" duration="5971000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658219000344</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Passing Arguments Primitive vs Reference type">
+      <created>1658221206569</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658221206569</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +276,8 @@
     <MESSAGE value="CodingChallenge4.js" />
     <MESSAGE value="Refactor New Section" />
     <MESSAGE value="Function --&gt; Default Parameters Lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Function --&gt; Default Parameters Lecture" />
+    <MESSAGE value="Passing Arguments Primitive vs Reference type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passing Arguments Primitive vs Reference type" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
