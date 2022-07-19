@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="High Order Functions (Functions Returning Functions)">
-      <change afterPath="$PROJECT_DIR$/Call&amp;ApplyMethods.js" afterDir="false" />
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Call &amp; Apply Methods&#10;(Manually manipulating the 'this' keyword)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Attach.html" beforeDir="false" afterPath="$PROJECT_DIR$/Attach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Call&amp;ApplyMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/Call&amp;ApplyMethods&amp;Bind.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <workItem from="1657867461101" duration="36000" />
       <workItem from="1657877914849" duration="12314000" />
       <workItem from="1658132503525" duration="7307000" />
-      <workItem from="1658212576074" duration="10459000" />
+      <workItem from="1658212576074" duration="12287000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658225040401</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Call &amp; Apply Methods&#10;(Manually manipulating the 'this' keyword)">
+      <created>1658227479615</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1658227479615</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +300,8 @@
     <MESSAGE value="Passing Arguments Primitive vs Reference type" />
     <MESSAGE value="High Order Functions (Callback Functions or Taking Functions as params)" />
     <MESSAGE value="High Order Functions (Functions Returning Functions)" />
-    <option name="LAST_COMMIT_MESSAGE" value="High Order Functions (Functions Returning Functions)" />
+    <MESSAGE value="Call &amp; Apply Methods&#10;(Manually manipulating the 'this' keyword)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Call &amp; Apply Methods&#10;(Manually manipulating the 'this' keyword)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
