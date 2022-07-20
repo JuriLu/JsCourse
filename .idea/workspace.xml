@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="ES 2022 At() method +">
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="FOR EACH in Maps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <workItem from="1658132503525" duration="7307000" />
       <workItem from="1658212576074" duration="19360000" />
       <workItem from="1658298393154" duration="1021000" />
-      <workItem from="1658320697659" duration="4105000" />
+      <workItem from="1658320697659" duration="5974000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -320,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658323095257</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="FOR EACH in Maps">
+      <created>1658327904712</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1658327904712</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +347,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Coding Challenge Lecture" />
     <MESSAGE value="Object Literals ES6 Enhancement" />
     <MESSAGE value="." />
     <MESSAGE value="sets lecture" />
@@ -364,7 +371,8 @@
     <MESSAGE value="Simple array methods" />
     <MESSAGE value="ES 2022 At() method" />
     <MESSAGE value="ES 2022 At() method +" />
-    <option name="LAST_COMMIT_MESSAGE" value="ES 2022 At() method +" />
+    <MESSAGE value="FOR EACH in Maps" />
+    <option name="LAST_COMMIT_MESSAGE" value="FOR EACH in Maps" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
