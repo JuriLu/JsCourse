@@ -126,3 +126,6 @@ console.log(arr.at(0))        // Same functionality, New Version
 console.log(arr[arr.length - 1])   // Old Version
 console.log(arr.slice(-1)[0])     // Old Version
 console.log(arr.at(-1))    // New Version
+
+// Works with strings too
+console.log('jonas'.at(-1))
