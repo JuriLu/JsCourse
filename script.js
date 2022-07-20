@@ -65,13 +65,9 @@ const inputClosePin = document.querySelector('.form__input--pin');
 /////////////////////////////////////////////////
 // LECTURES
 
-const currencies = new Map([
-    ['USD', 'United States dollar'],
-    ['EUR', 'Euro'],
-    ['GBP', 'Pound sterling'],
-]);
 
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
 
@@ -116,16 +112,58 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 // // includes
 
 
-// ES2022 Latest methods
+// // ES2022 Latest methods
+//
+// const arr = [23, 11, 64]
+// console.log(arr[0])                 // Same functionality , Old version
+// console.log(arr.at(0))        // Same functionality, New Version
+//
+// // Get the last element, but Say we don't know the length of the array
+// console.log(arr[arr.length - 1])   // Old Version
+// console.log(arr.slice(-1)[0])     // Old Version
+// console.log(arr.at(-1))    // New Version
+//
+// // Works with strings too
+// console.log('jonas'.at(-1))
 
-const arr = [23, 11, 64]
-console.log(arr[0])                 // Same functionality , Old version
-console.log(arr.at(0))        // Same functionality, New Version
+// FOR EACH LOOP
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+//
+// for (const [i,movement] of movements.entries()) {
+//     if (movement > 0) {
+//         console.log(`Movement ${i+1} You deposited ${movement}`)
+//     } else {
+//         console.log(`Movement ${i+1} You Withdrew ${Math.abs(movement)}`)
+//     }
+// }
+// console.log("----------------- FOR EACH ----------------")
+//
+//
+// //The name doesn't matter but the order does   first is the element of the array | Second is always the index | Third is the array
+// movements.forEach( function (mov,i,arr){
+//     if (mov > 0) {
+//         console.log(`Movement ${i+1} You deposited ${mov}`)
+//     } else {
+//         console.log(`Movement ${i+1} You Withdrew ${Math.abs(mov)}`)
+//     }
+// });
 
-// Get the last element, but Say we don't know the length of the array
-console.log(arr[arr.length - 1])   // Old Version
-console.log(arr.slice(-1)[0])     // Old Version
-console.log(arr.at(-1))    // New Version
-
-// Works with strings too
-console.log('jonas'.at(-1))
+// // FOR EACH IN MAPS
+// const currencies = new Map([
+//     ['USD', 'United States dollar'],
+//     ['EUR', 'Euro'],
+//     ['GBP', 'Pound sterling'],
+// ]);
+//
+// currencies.forEach(function (value, key, map){
+//     console.log(`${key}: ${value}`)
+// })
+//
+//
+// const currenciesUnique = new Set(['USD','GBP','USD','EUR','EUR'])
+// console.log(currenciesUnique);
+//
+// //  _ is a throwAway variable Completely unnecessary variable
+// currenciesUnique.forEach(function (value, _, map) {
+//     console.log(`${key}: ${value}`)
+// })
