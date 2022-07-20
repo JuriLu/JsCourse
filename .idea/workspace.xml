@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Array Lecture Start">
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Simple array methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javier-miranda-b_fob3Te8Uk-unsplash.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,7 @@
       <workItem from="1658132503525" duration="7307000" />
       <workItem from="1658212576074" duration="19360000" />
       <workItem from="1658298393154" duration="1021000" />
-      <workItem from="1658320697659" duration="1641000" />
+      <workItem from="1658320697659" duration="2225000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -300,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658320812968</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Simple array methods">
+      <created>1658322433871</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1658322433871</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +325,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Spread Operator Lecture" />
     <MESSAGE value="Rest Operator Lecture" />
     <MESSAGE value="Logical Assignment Operator Lecture" />
     <MESSAGE value="Coding Challenge Lecture" />
@@ -344,7 +349,8 @@
     <MESSAGE value="Immediately Invoked Function Expression IIFE" />
     <MESSAGE value="Closure" />
     <MESSAGE value="Array Lecture Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Lecture Start" />
+    <MESSAGE value="Simple array methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple array methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
