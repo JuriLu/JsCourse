@@ -75,38 +75,53 @@ displayMovements(account1.movements)
 /////////////////////////////////////////////////
 // LECTURES
 
-// Coding Challenge #1
+//Data Transformation Arrays
 
-const Julias = [9, 16, 6, 8, 31];
-const Kates = [10, 5, 6, 1, 4];
+// MAP METHOD
+//  Map function takes an array, loops over that array and in each iteration it applies a covic function
+//  that we specify in our code to the current array element
+//  * Return a new array containing the results of applying an operation on all original array elements
+    /*
 
-console.log(Object.keys({Julias})[0]) // get the name of the variable
+    [3 1 4 3 2]
+     ↓ ↓ ↓ ↓ ↓
+    ______________
+   |     Map     |
+   | current * 2 |
+   |_____________|
+    ↓  ↓  ↓  ↓  ↓
+    6  2  8  6  4
+*/
 
-const checkDogs = function (dogsJulia, dogsKate) {
+// FILTER METHOD
+// Is used to filter for elements in the original array that satisfies the certain condition
 
-    const dogsJuliaCorr = dogsJulia.slice()
-    dogsJuliaCorr.splice(0, 1);
-    dogsJuliaCorr.splice(-2);
-    console.log(dogsJuliaCorr);
+    /*
 
-    const dogs = dogsJuliaCorr.concat(dogsKate)
-    console.log(dogs)
+    [3 1 4 3 2]
+     ↓ ↓ ↓ ↓ ↓
+    ______________
+    |   Filter    |
+    | current > 2 |
+    |_____________|
+    ↓  ↓  ↓  ↓  ↓
+    3     4  3
+    */
 
-    dogs.forEach(function (dog, i, arr) {
-        if (dog >= 3) {
-            console.log(`Dog number ${i + 1} is an adult and is ${dog} years old`)
-        } else {
-            console.log(`Dog ${i + 1} is a puppy with age: ${arr.at(i)} years old`)
-        }
+// REDUCE METHOD
+// Used to boil down all the elements of the original array in one single value
 
-    })
-    console.log(`-----------------------`)
-}
+    /*
 
-checkDogs(Julias, Kates)
+    [3 1 4 3 2]
+     ↓ ↓ ↓ ↓ ↓
+    ______________
+    |   Reduce    |
+    | acc+current |
+    |_____________|
+    ↓   ↓   ↓   ↓   ↓
+    3 + 1 + 4 + 3 + 2    //Snowball Effect
+           ↓
+          13             // The entire array has been reduced in one value
 
-
-// TEST DATA1:Julia's data[3,5,2,12,71,Kate's
-// data[4,1,15,8,31
-// TEST DATA2:Julia's data[9,16,6,8,31,Kate's
-// data[10,5,6,1,4]
+    */
