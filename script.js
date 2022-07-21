@@ -73,6 +73,20 @@ const displayMovements = function (movements) {
 displayMovements(account1.movements)
 
 
+const createUsernames = function (accs){                // array of account objects
+    accs.forEach(function (acc){
+        acc.username = acc.owner                        // create a new key username with the value tolowercase.split.map
+            .toLowerCase()
+            .split(' ')
+            .map(word => word.at(0)).join('');
+    })
+};
+console.log(accounts)
+
+
+createUsernames(accounts);
+
+
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
