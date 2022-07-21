@@ -6,7 +6,8 @@
 
 // Data
 const account1 = {
-    owner: 'Jonas Schmedtmann', movements: [200, 450, -400, 3000, -650, -130, 70, 1300], interestRate: 1.2, // %
+    owner: 'Jonas Schmedtmann',
+    movements: [200, 450, -400, 3000, -650, -130, 70, 1300], interestRate: 1.2, // %
     pin: 1111,
 };
 
@@ -71,57 +72,25 @@ const displayMovements = function (movements) {
 
 displayMovements(account1.movements)
 
+
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300]
+const eurToUsd = 1.1;
+const movementsUSD = movements.map( mov => mov * eurToUsd  )
 
-//Data Transformation Arrays
+console.log(movements)
+console.log(movementsUSD)
 
-// MAP METHOD
-//  Map function takes an array, loops over that array and in each iteration it applies a covic function
-//  that we specify in our code to the current array element
-//  * Return a new array containing the results of applying an operation on all original array elements
-    /*
+const movementsDescriptions = movements.map((mov,i,arr) => {
+    `Movement ${i+1}: You ${mov > 0 ? 'deposited' : 'withdrew' } ${Math.abs(mov)}`
 
-    [3 1 4 3 2]
-     ↓ ↓ ↓ ↓ ↓
-    ______________
-   |     Map     |
-   | current * 2 |
-   |_____________|
-    ↓  ↓  ↓  ↓  ↓
-    6  2  8  6  4
-*/
+    if (mov > 0){
+        return `Movement ${i+1}: You Deposited ${mov}`
+    } else {
+        return `Movement ${i+1}: You Deposited ${Math.abs(mov)}`
+    }
+})
 
-// FILTER METHOD
-// Is used to filter for elements in the original array that satisfies the certain condition
-
-    /*
-
-    [3 1 4 3 2]
-     ↓ ↓ ↓ ↓ ↓
-    ______________
-    |   Filter    |
-    | current > 2 |
-    |_____________|
-    ↓  ↓  ↓  ↓  ↓
-    3     4  3
-    */
-
-// REDUCE METHOD
-// Used to boil down all the elements of the original array in one single value
-
-    /*
-
-    [3 1 4 3 2]
-     ↓ ↓ ↓ ↓ ↓
-    ______________
-    |   Reduce    |
-    | acc+current |
-    |_____________|
-    ↓   ↓   ↓   ↓   ↓
-    3 + 1 + 4 + 3 + 2    //Snowball Effect
-           ↓
-          13             // The entire array has been reduced in one value
-
-    */
+console.log(movementsDescriptions);
