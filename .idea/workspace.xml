@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Chaining Method">
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Chaining Method + Displaying Income Outcome and Interest in Banking App with Chaining Method Phase 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
@@ -109,7 +109,7 @@
       <workItem from="1658298393154" duration="1021000" />
       <workItem from="1658320697659" duration="6640000" />
       <workItem from="1658385860071" duration="16102000" />
-      <workItem from="1658410099833" duration="544000" />
+      <workItem from="1658410099833" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -398,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658408223205</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Chaining Method + Displaying Income Outcome and Interest in Banking App with Chaining Method Phase 4">
+      <created>1658410832866</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1658410832866</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +424,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="CodingChallenge4.js" />
     <MESSAGE value="Refactor New Section" />
     <MESSAGE value="Function --&gt; Default Parameters Lecture" />
     <MESSAGE value="Passing Arguments Primitive vs Reference type" />
@@ -442,7 +448,8 @@
     <MESSAGE value="Reducer Methodn + Banking App Phase 3: Displaying Current Value" />
     <MESSAGE value="Coding Challenge 2" />
     <MESSAGE value="Chaining Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chaining Method" />
+    <MESSAGE value="Chaining Method + Displaying Income Outcome and Interest in Banking App with Chaining Method Phase 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chaining Method + Displaying Income Outcome and Interest in Banking App with Chaining Method Phase 4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -94,7 +94,7 @@ const calcDisplaySummary = function (movements) {
     const interest = movements
         .filter(mov => mov > 0)
         .map(mov => mov * 1.2 / 100)
-        .filter(mov => mov >=1 )
+        .filter(mov => mov >= 1)
         .reduce((acc, mov) => acc + mov)
     labelSumInterest.textContent = `${interest}`
 }
@@ -109,7 +109,7 @@ const createUsernames = function (accs) {                // array of account obj
             .map(word => word.at(0)).join('');
     })
 };
-console.log(accounts)
+// console.log(accounts)
 
 
 createUsernames(accounts);
@@ -122,8 +122,8 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300]
 const eurToUsd = 1.1;
 const movementsUSD = movements.map(mov => mov * eurToUsd)
 
-console.log(movements)
-console.log(movementsUSD)
+// console.log(movements)
+// console.log(movementsUSD)
 
 const movementsDescriptions = movements.map((mov, i) => {
     `Movement ${i + 1}: You ${mov > 0 ? 'deposited' : 'withdrew'} ${Math.abs(mov)}`
@@ -131,3 +131,11 @@ const movementsDescriptions = movements.map((mov, i) => {
 })
 
 console.log(movementsDescriptions);
+
+
+// FILTER METHOD
+// Filter Method returns only the first element from the array that you specify the rule
+// Filter Method return the element itself not the array
+
+const firstWithdrawal = movements.find(mov => mov < 0)
+console.log(firstWithdrawal);
