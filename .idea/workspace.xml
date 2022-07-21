@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Banking App Phase #2 Create Username">
-      <change afterPath="$PROJECT_DIR$/MapMethod.js" afterDir="false" />
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Filter Method">
+      <change afterPath="$PROJECT_DIR$/Reduce.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <recent name="C:\Users\jlubonja\Desktop\Projects\JS\JS_DataStructure" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Attach.html">
+  <component name="RunManager" selected="Node.js.Reduce.js">
     <configuration name="Test" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229" restartOnDisconnect="true">
       <method v="2" />
     </configuration>
@@ -73,13 +74,18 @@
       </EXTENSION>
       <method v="2" />
     </configuration>
+    <configuration name="Reduce.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Reduce.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Attach to Node.js/Chrome.Test" />
       <item itemvalue="JavaScript Debug.Attach.html" />
       <item itemvalue="Node.js.PrimitiveVsReference.js" />
+      <item itemvalue="Node.js.Reduce.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Reduce.js" />
         <item itemvalue="JavaScript Debug.Attach.html" />
       </list>
     </recent_temporary>
@@ -103,7 +109,7 @@
       <workItem from="1658212576074" duration="19360000" />
       <workItem from="1658298393154" duration="1021000" />
       <workItem from="1658320697659" duration="6640000" />
-      <workItem from="1658385860071" duration="8448000" />
+      <workItem from="1658385860071" duration="10947000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -364,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658397389800</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Filter Method">
+      <created>1658397807442</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1658397807442</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +396,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Coding Challenge #3 lecture" />
     <MESSAGE value="String Part #1 lecture" />
     <MESSAGE value="String Part #2 lecture" />
     <MESSAGE value="String Part #3 lecture" />
@@ -408,7 +420,8 @@
     <MESSAGE value="Data Transformation Lecture" />
     <MESSAGE value="Map Method Practice +" />
     <MESSAGE value="Banking App Phase #2 Create Username" />
-    <option name="LAST_COMMIT_MESSAGE" value="Banking App Phase #2 Create Username" />
+    <MESSAGE value="Filter Method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter Method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

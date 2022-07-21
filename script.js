@@ -69,12 +69,18 @@ const displayMovements = function (movements) {
         containerMovements.insertAdjacentHTML('afterbegin', html);
     })
 }
-
 displayMovements(account1.movements)
 
 
-const createUsernames = function (accs){                // array of account objects
-    accs.forEach(function (acc){
+const calcDisplayBalance = function (movements) {
+    const balance = movements.reduce((acc, mov) => acc + mov, 0);
+    labelBalance.textContent = `${balance} EUR`
+}
+calcDisplayBalance(account1.movements)
+
+
+const createUsernames = function (accs) {                // array of account objects
+    accs.forEach(function (acc) {
         acc.username = acc.owner                        // create a new key username with the value tolowercase.split.map
             .toLowerCase()
             .split(' ')
@@ -85,6 +91,8 @@ console.log(accounts)
 
 
 createUsernames(accounts);
+
+
 
 
 /////////////////////////////////////////////////
