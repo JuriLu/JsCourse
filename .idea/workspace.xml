@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Find Method">
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Implementing Login part 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,8 @@
       <workItem from="1658410099833" duration="4236000" />
       <workItem from="1658478259381" duration="22000" />
       <workItem from="1658481366430" duration="296000" />
-      <workItem from="1658731705847" duration="918000" />
+      <workItem from="1658731705847" duration="1174000" />
+      <workItem from="1658732967639" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -415,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658413556453</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Implementing Login part 2">
+      <created>1658732883520</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1658732883520</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +441,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Function --&gt; Default Parameters Lecture" />
     <MESSAGE value="Passing Arguments Primitive vs Reference type" />
     <MESSAGE value="High Order Functions (Callback Functions or Taking Functions as params)" />
     <MESSAGE value="High Order Functions (Functions Returning Functions)" />
@@ -459,7 +465,8 @@
     <MESSAGE value="Chaining Method" />
     <MESSAGE value="Chaining Method + Displaying Income Outcome and Interest in Banking App with Chaining Method Phase 4" />
     <MESSAGE value="Find Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find Method" />
+    <MESSAGE value="Implementing Login part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing Login part 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
