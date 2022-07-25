@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Implementing Request Loan with some and every Method&#10;Some Method&#10;Every Method">
+    <list default="true" id="c778dd63-d4c9-4617-9f14-af13a6c1a87e" name="Changes" comment="Flat &amp; FlatMap Methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
@@ -117,7 +117,7 @@
       <workItem from="1658478259381" duration="22000" />
       <workItem from="1658481366430" duration="296000" />
       <workItem from="1658731705847" duration="1174000" />
-      <workItem from="1658732967639" duration="8734000" />
+      <workItem from="1658732967639" duration="11483000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore add">
       <created>1657629838042</created>
@@ -448,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658742740498</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Flat &amp; FlatMap Methods">
+      <created>1658743972561</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1658743972561</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Call &amp; Apply Methods&#10;(Manually manipulating the 'this' keyword)" />
     <MESSAGE value="Bind Method" />
     <MESSAGE value="Coding Challenge No 1" />
     <MESSAGE value="Immediately Invoked Function Expression IIFE" />
@@ -492,7 +498,8 @@
     <MESSAGE value="Implementing Transfer Money functionality&#10;Array Methods&#10;Dom Manipulation&#10;Logical blocks &amp; operators" />
     <MESSAGE value="Close Account Feature with findIndex() method" />
     <MESSAGE value="Implementing Request Loan with some and every Method&#10;Some Method&#10;Every Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing Request Loan with some and every Method&#10;Some Method&#10;Every Method" />
+    <MESSAGE value="Flat &amp; FlatMap Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flat &amp; FlatMap Methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -54,10 +54,12 @@ const inputLoanAmount = document.querySelector('.form__input--loan-amount');
 const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
-const displayMovements = function (movements) {
+const displayMovements = function (movements, sort = false) {
     containerMovements.innerHTML = '';
 
-    movements.forEach(function (mov, i) {
+    const movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
+
+    movs.forEach(function (mov, i) {
         const type = mov > 0 ? 'deposit' : 'withdrawal'
 
         const html = `
@@ -189,7 +191,6 @@ btnClose.addEventListener('click', (e) => {
 })
 
 // 4 Request Loan
-
 btnLoan.addEventListener('click', (e) => {
     e.preventDefault()
 
@@ -208,28 +209,53 @@ btnClose.addEventListener('click', (e) => {
     e.preventDefault()
 })
 
+let sorted = false;
+// 5 Sort Function
+btnSort.addEventListener('click', function (e) {
+    e.preventDefault();
+    displayMovements(currentAccount.movements, !sorted);
+    sorted = !sorted;
+})
+
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
 
+// const movements = [
+//     7000,
+//     -4,
+//     300,
+//     -8,
+//     -5,
+//     60
+// ]
 
-const arr = [[1, 2, 3], [4, 5, 6], 7, 8]
-console.log(arr)
-
-//Flat method
-console.log(arr.flat())
-
-const arrDeep = [[[1, 2], 3], [4, [5, 6]], 7, 8]
-console.log('Flat Level 1', arrDeep.flat(1))
-console.log('Flat Level 2', arrDeep.flat(2))
-
-const overalBalance = accounts
-    // .map(acc => acc.movements)
-    // .flat()
-    .flatMap(acc => acc.movements)
-    .reduce((acc, mov) => acc + mov, 0)
-
-console.log(overalBalance);
-
-//FlatMap Method = map().flat()
+// const owners = [
+//     'Jonas',
+//     'Zach',
+//     'Adam',
+//     'Martha'
+// ]
+//
+// console.log(owners.sort()) //Mutates the original array
+// console.log(movements.sort())
+//
+// // Sorting on ascending order:
+// // if return < 0  cur,next
+// // if return > 0  next,cur
+//
+// //OLD VERSION
+// // movements.sort((cur, next) => {
+// //     if (cur > next) return 1
+// //     if (cur < next) return -1
+// // })
+// //Improved Version   Same Logic as ^^^^
+// movements.sort((a, b) => a - b)
+//
+// //Descending Order
+// movements.sort((cur, next) => {
+//     if (cur > next) return -1
+//     if (cur < next) return 1
+// })
+// console.log(movements);
