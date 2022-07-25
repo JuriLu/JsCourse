@@ -54,7 +54,7 @@ const inputLoanAmount = document.querySelector('.form__input--loan-amount');
 const inputCloseUsername = document.querySelector('.form__input--user');
 const inputClosePin = document.querySelector('.form__input--pin');
 
-const displayMovements = function (movements) {
+const  displayMovements = function (movements) {
     containerMovements.innerHTML = '';
 
     movements.forEach(function (mov, i) {
@@ -80,25 +80,25 @@ calcDisplayBalance(account1.movements)
 
 
 //Calculate summary bottom left of the window
-const calcDisplaySummary = function (movements) {
-    const incomes = movements
+const calcDisplaySummary = function (acc) {
+    const incomes = acc.movements
         .filter(mov => mov > 0)
         .reduce((acc, mov) => acc + mov, 0)
     labelSumIn.textContent = `${incomes}€`
 
-    const out = movements
+    const out = acc.movements
         .filter(mov => mov < 0)
         .reduce((acc, mov) => acc + mov, 0);
     labelSumOut.textContent = `${Math.abs(out)}€`
 
-    const interest = movements
+    const interest = acc.movements
         .filter(mov => mov > 0)
-        .map(mov => mov * 1.2 / 100)
+        .map(mov => mov * acc.interestRate / 100)
         .filter(mov => mov >= 1)
-        .reduce((acc, mov) => acc + mov)
+        .reduce((acc, mov) => acc + mov,0);
     labelSumInterest.textContent = `${interest}`
 }
-calcDisplaySummary(account1.movements)
+calcDisplaySummary(account1)
 
 //Create Usernames from names
 const createUsernames = function (accs) {                // array of account objects
@@ -113,6 +113,31 @@ const createUsernames = function (accs) {                // array of account obj
 
 
 createUsernames(accounts);
+
+let currentAccount;
+
+
+
+
+btnLogin.addEventListener('click', (e) => {
+    e.preventDefault()
+
+    currentAccount = accounts.find(acc => acc.username === inputLoginUsername.value)
+    if (currentAccount?.pin === Number(inputLoginPin.value)){
+        //Display UI and message
+       labelWelcome.textContent=`Welcome back, ${currentAccount.owner.split(' ')[0]}`
+        containerApp.style.opacity = 100
+    }
+    //Clear input fields
+    inputLoginUsername.value = inputLoginPin.value = '';
+    inputLoginPin.blur();
+    // Display movements
+    displayMovements(currentAccount.movements)
+    // Display balance
+    calcDisplayBalance(currentAccount.movements)
+    // Display summary
+    calcDisplaySummary(currentAccount)
+})
 
 
 /////////////////////////////////////////////////
