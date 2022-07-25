@@ -195,7 +195,7 @@ btnLoan.addEventListener('click', (e) => {
 
     const amount = Number(inputLoanAmount.value)
 
-    if ( amount > 0 &&  currentAccount.movements.some( mov => mov >= amount * 0.1)) {  //more than 10%
+    if (amount > 0 && currentAccount.movements.some(mov => mov >= amount * 0.1)) {  //more than 10%
         //Add Movement
         currentAccount.movements.push(amount)
 
@@ -212,22 +212,24 @@ btnClose.addEventListener('click', (e) => {
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
-const movements= [200, 450, -400, 3000, -650, -130, 70, 1300]
 
-console.log(movements);
-console.log(movements.includes(-130));
 
-// SOME METHOD : Condition
-const anyDeposits = movements.some(mov => mov > 0)
-console.log(anyDeposits);
+const arr = [[1, 2, 3], [4, 5, 6], 7, 8]
+console.log(arr)
 
-// EVERY METHOD
-//If all the elements of the array satisfy this condition
-console.log(movements.every(mov => mov > 0))           //False : not all the movements are above 0
-console.log(accounts4.movements.every(mov => mov > 0)) // True : All the movements are above 0
+//Flat method
+console.log(arr.flat())
 
-// Separate callback
-const deposit = mov => mov > 0;
-console.log(movements.some(deposit));
-console.log(movements.every(deposit));
-console.log(movements.filter(deposit));
+const arrDeep = [[[1, 2], 3], [4, [5, 6]], 7, 8]
+console.log('Flat Level 1', arrDeep.flat(1))
+console.log('Flat Level 2', arrDeep.flat(2))
+
+const overalBalance = accounts
+    // .map(acc => acc.movements)
+    // .flat()
+    .flatMap(acc => acc.movements)
+    .reduce((acc, mov) => acc + mov, 0)
+
+console.log(overalBalance);
+
+//FlatMap Method = map().flat()
