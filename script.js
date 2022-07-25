@@ -114,7 +114,7 @@ const createUsernames = function (accs) {                // array of account obj
 
 createUsernames(accounts);
 
-const updateUI = function (acc){
+const updateUI = function (acc) {
     // Display movements
     displayMovements(acc.movements)
     // Display balance
@@ -123,9 +123,10 @@ const updateUI = function (acc){
     calcDisplaySummary(acc)
 }
 
+//  EVENT HANDLERS
 let currentAccount;
 
-
+// 1 Login Event
 btnLogin.addEventListener('click', (e) => {
     e.preventDefault()
 
@@ -143,6 +144,7 @@ btnLogin.addEventListener('click', (e) => {
 
 })
 
+// 2 Transfer Money Event
 btnTransfer.addEventListener('click', function (e) {
     e.preventDefault();
     const amount = Number(inputTransferAmount.value);
@@ -164,28 +166,35 @@ btnTransfer.addEventListener('click', function (e) {
     }
 })
 
+// 3 Close Account Event
+btnClose.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    if (
+        currentAccount.username === inputCloseUsername.value &&
+        currentAccount.pin === Number(inputClosePin.value)
+    ) {
+        //Find index will return the index of the first element of the array that matches the condition
+        const index = accounts.findIndex(
+            acc => acc.username === currentAccount.username);
+        // console.log(index);
+
+        //Delete Account
+        accounts.splice(index, 1)
+        //Hide UI
+        containerApp.style.opacity = 0
+    }
+    inputCloseUsername.value = inputClosePin.value = ''
+    labelWelcome.textContent = "Log in to get started"
+})
+
+
+
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300]
-const eurToUsd = 1.1;
-const movementsUSD = movements.map(mov => mov * eurToUsd)
-
-// console.log(movements)
-// console.log(movementsUSD)
-
-const movementsDescriptions = movements.map((mov, i) => {
-    `Movement ${i + 1}: You ${mov > 0 ? 'deposited' : 'withdrew'} ${Math.abs(mov)}`
-
-})
-
-console.log(movementsDescriptions);
 
 
-// FILTER METHOD
-// Filter Method returns only the first element from the array that you specify the rule
-// Filter Method return the element itself not the array
-
-const firstWithdrawal = movements.find(mov => mov < 0)
-console.log(firstWithdrawal);
+console.log(movements);
+console.log(movements.includes(-130));
