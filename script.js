@@ -188,13 +188,46 @@ btnClose.addEventListener('click', (e) => {
     labelWelcome.textContent = "Log in to get started"
 })
 
+// 4 Request Loan
 
+btnLoan.addEventListener('click', (e) => {
+    e.preventDefault()
+
+    const amount = Number(inputLoanAmount.value)
+
+    if ( amount > 0 &&  currentAccount.movements.some( mov => mov >= amount * 0.1)) {  //more than 10%
+        //Add Movement
+        currentAccount.movements.push(amount)
+
+        //Update UI
+        updateUI(currentAccount)
+    }
+    inputLoanAmount.value = ''
+})
+btnClose.addEventListener('click', (e) => {
+    e.preventDefault()
+})
 
 
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
-
+const movements= [200, 450, -400, 3000, -650, -130, 70, 1300]
 
 console.log(movements);
 console.log(movements.includes(-130));
+
+// SOME METHOD : Condition
+const anyDeposits = movements.some(mov => mov > 0)
+console.log(anyDeposits);
+
+// EVERY METHOD
+//If all the elements of the array satisfy this condition
+console.log(movements.every(mov => mov > 0))           //False : not all the movements are above 0
+console.log(accounts4.movements.every(mov => mov > 0)) // True : All the movements are above 0
+
+// Separate callback
+const deposit = mov => mov > 0;
+console.log(movements.some(deposit));
+console.log(movements.every(deposit));
+console.log(movements.filter(deposit));
