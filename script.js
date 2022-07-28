@@ -222,40 +222,48 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 // LECTURES
 
-// const movements = [
-//     7000,
-//     -4,
-//     300,
-//     -8,
-//     -5,
-//     60
-// ]
+// const bankDepositSum = accounts.map(acc => acc.movements).flat()
+const bankDepositSum = accounts
+    .flatMap(acc => acc.movements)
+    .filter(mov => mov > 0)
+    .reduce((sum, cur) => sum + cur, 0)
+console.log(bankDepositSum);
 
-// const owners = [
-//     'Jonas',
-//     'Zach',
-//     'Adam',
-//     'Martha'
-// ]
-//
-// console.log(owners.sort()) //Mutates the original array
-// console.log(movements.sort())
-//
-// // Sorting on ascending order:
-// // if return < 0  cur,next
-// // if return > 0  next,cur
-//
-// //OLD VERSION
-// // movements.sort((cur, next) => {
-// //     if (cur > next) return 1
-// //     if (cur < next) return -1
-// // })
-// //Improved Version   Same Logic as ^^^^
-// movements.sort((a, b) => a - b)
-//
-// //Descending Order
-// movements.sort((cur, next) => {
-//     if (cur > next) return -1
-//     if (cur < next) return 1
-// })
-// console.log(movements);
+// no. of movements greater than 1000
+const numDeposits1000 = accounts
+    .flatMap(acc => acc.movements)
+    .reduce((count,cur) => cur >= 1000 ? count + 1 : count,0)
+
+console.log(numDeposits1000);
+
+
+const {deposits,withdrawals} = accounts
+    .flatMap(acc => acc.movements)
+    .reduce((sums,cur) => {
+        // cur > 0 ? sums.deposits += cur : sums.withdrawals += cur;
+        sums[cur > 0 ? 'deposits' : 'withdrawals'] += cur
+        return sums
+    }, {deposits: 0 , withdrawals:0})
+console.log(deposits,withdrawals)
+
+
+const convertTitleCase = function (title){
+    const capitalize = (str) => {
+       return str[0].toUpperCase() + str.slice(1)
+    }
+
+    const exceptions =['a','an','the','but','or','on','in','with','not','and']
+
+    const titleCase = title
+        .toLowerCase()
+        .split(' ')
+        .map(word => exceptions.includes(word) ? word : word[0].toUpperCase() + word.slice(1))
+        .join(' ')
+
+    return capitalize(titleCase)
+
+}
+console.log(convertTitleCase('this is a nice title'))
+console.log(convertTitleCase('this is a LONG title but not too long'))
+console.log(convertTitleCase('and here is another title with an EXAMPLE'))
+
